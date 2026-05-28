@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* GLOBAL RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(6,182,212,0.15),
+      transparent 30%
+    ),
+
+    radial-gradient(
+      circle at bottom left,
+      rgba(139,92,246,0.15),
+      transparent 30%
+    ),
+
+    #020617;
+
+  color: white;
+
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  overflow-x: hidden;
+
+  min-height: 100vh;
+
+  scroll-behavior: smooth;
+
+}
+
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* BUTTONS */
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+/* INPUTS */
+
+input,
+textarea,
+select {
+
+  color: white;
+
+}
+
+
+/* PREMIUM SCROLLBAR */
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+  background: #020617;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background: linear-gradient(
+    to bottom,
+    #06b6d4,
+    #3b82f6
+  );
+
+  border-radius: 20px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  opacity: 0.8;
+
+}
+
+
+/* GLOW ANIMATION */
+
+@keyframes glow {
+
+  0% {
+
+    opacity: 0.5;
+
+    transform: scale(1);
+
+  }
+
+  50% {
+
+    opacity: 0.8;
+
+    transform: scale(1.05);
+
+  }
+
+  100% {
+
+    opacity: 0.5;
+
+    transform: scale(1);
+
+  }
+
+}
+
+
+/* FLOATING EFFECT */
+
+@keyframes floating {
+
+  0% {
+
+    transform: translateY(0px);
+
+  }
+
+  50% {
+
+    transform: translateY(-10px);
+
+  }
+
+  100% {
+
+    transform: translateY(0px);
+
+  }
+
+}
+
+
+/* PREMIUM CLASSES */
+
+.glow-effect {
+
+  animation: glow 4s ease-in-out infinite;
+
+}
+
+
+.floating-effect {
+
+  animation: floating 5s ease-in-out infinite;
+
+}
