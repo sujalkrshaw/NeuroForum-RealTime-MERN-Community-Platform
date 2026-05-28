@@ -154,31 +154,49 @@ Live Updates Across Clients
 ```
 
 ---
-
 # 📸 Platform Screenshots
 
-# 🏠 Home Page
+# 🏠 Community Home Page
 
-![Home](./assets/home.png)
-
----
-
-# 💬 Real-Time Chat
-
-![Chat](./assets/chat.png)
+![Community Home](./images/community_form.png)
 
 ---
 
-# 📊 Admin Dashboard
+# 🔐 Login System
 
-![Dashboard](./assets/dashboard.png)
+![Login](./images/login.png)
 
 ---
 
-# 📈 Analytics System
+# 📝 Registration Page
 
-![Analytics](./assets/analytics.png)
+![Register](./images/register.png)
 
+---
+
+# 📊 Premium Admin Dashboard
+
+![Dashboard](./images/dashboard.png)
+
+---
+
+# 📈 Analytics & Reports
+
+![Analytics](./images/analysis.png)
+
+---
+
+# 🔔 Notifications System
+
+![Notifications](./images/notification.png)
+
+---
+
+# 📑 Reports Section
+
+![Reports](./images/report.png)
+
+---
 ---
 
 # 🚀 Core Modules
